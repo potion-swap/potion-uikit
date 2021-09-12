@@ -29,9 +29,19 @@ export const links = [
     href: "/syrup",
   },
   {
+    label: "Boosted Farms",
+    icon: "GaugeIcon",
+    href: "/boostedfarms",
+  },
+  {
+    label: "inSpirit",
+    icon: "inSpiritIcon",
+    href: "http://spiritswap-inspirit-staging.s3-website.us-east-2.amazonaws.com/", // to change in production
+  },
+  {
     label: "Certik Audit (In-Progress)",
     icon: "ShieldIcon",
-    href: "https://twitter.com/cyberswaptokendex/status/1367218225310818308",
+    href: "https://twitter.com/Spirit_Swap/status/1367218225310818308",
     target: "_blank",
   },
   {
@@ -110,16 +120,16 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/cyberswaptoken/",
-        target: '_blank',
+        href: "https://github.com/Layer3Org/SpiritSwap/",
+        target: "_blank",
       },
       {
         label: "Docs",
-        href: "https://htz.gitbook.io/cyberswaptoken/",
+        href: "https://SpiritSwap.gitbook.io/spiritswap/",
       },
       {
         label: "Blog",
-        href: "https://cyberswaptokendex.medium.com/",
+        href: "https://spiritswapdex.medium.com/",
       },
     ],
   },
@@ -127,14 +137,24 @@ export const links = [
 
 export const socials = [
   {
+    label: "Youtube",
+    icon: "YoutubeIcon",
+    href: "https://www.youtube.com/channel/UCrKLtNctO0obN4-bDMGlFuQ/featured",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/thexfoundationdiscussion",
+    href: "https://t.me/spirit_swap",
+  },
+  {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/8FGd4nFQdT",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/thexdao",
+    href: "https://twitter.com/Spirit_Swap",
   },
 ];
 

@@ -3,9 +3,7 @@ import Svg from "../Svg";
 import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
-  return (
-    <img width="45px" height="50px" src="/images/mobile-logo.png" alt="mobile logo" />
-  );
+  return <img {...props} width="220px" height="50px" src="/images/mobile-logo.png" />;
 };
 
 export default Icon;

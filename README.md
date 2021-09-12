@@ -16,7 +16,7 @@ Before using Pancake UIkit, you need to provide the theme file to styled-compone
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from 'uikit'
+import { light, dark } from '@pancakeswap-libs/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -26,7 +26,7 @@ import { light, dark } from 'uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from 'uikit'
+import { ResetCSS } from '@pancakeswap-libs/uikit'
 ...
 <ResetCSS />
 ```

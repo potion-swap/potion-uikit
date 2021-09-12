@@ -345,7 +345,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-bdfBwQ fEwDKZ"
               color="primary"
             >
-              Fantom Chain Wallet
+              Binance Chain Wallet
             </div>
             <svg
               class="sc-dlfnbm cqTLJf"
@@ -487,7 +487,7 @@ it("renders AccountModal correctly", () => {
               rel="noreferrer noopener"
               target="_blank"
             >
-              View on FtmScan
+              View on FTMScan
               <svg
                 class="sc-dlfnbm dJUqYR"
                 color="primary"
