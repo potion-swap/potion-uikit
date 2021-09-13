@@ -6,5 +6,6 @@ export const light: ToggleTheme = {
 };
 
 export const dark: ToggleTheme = {
-  handleBackground: darkColors.card,
+  // handleBackground: darkColors.card,
+  handleBackground: "#252c6d"
 };

@@ -139,22 +139,22 @@ export const socials = [
   {
     label: "Youtube",
     icon: "YoutubeIcon",
-    href: "https://www.youtube.com/channel/UCrKLtNctO0obN4-bDMGlFuQ/featured",
+    href: "",
   },
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/spirit_swap",
+    href: "",
   },
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://discord.gg/8FGd4nFQdT",
+    href: "",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/Spirit_Swap",
+    href: "",
   },
 ];
 

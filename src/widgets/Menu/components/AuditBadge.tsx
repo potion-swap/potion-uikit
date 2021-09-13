@@ -34,7 +34,7 @@ const AuditBadge: React.FC<Props> = ({ isPushed }) => {
   return (
     <Wrapper
       className="audit-badge"
-      href="https://github.com/Layer3Org/spiritswap-core/blob/main/SpiritSwap-Core%20Security%20Audit%20Report.pdf"
+      href="#"
       rel="noreferrer"
       target="_blank"
       isPushed={isPushed}
