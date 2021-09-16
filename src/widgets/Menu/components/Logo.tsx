@@ -16,16 +16,24 @@ interface Props {
 const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
+
+  & > div {
+    margin-left: 25px;
+    margin-top: 18px;
+  }
+
   .mobile-icon {
-    width: 32px;
+    width: 120px;
+    height: 95px;
+
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
   }
   .desktop-icon {
-    width: 55px;
-    height: 75px;
-    //margin-left: 30px;
+    width: 120px;
+    height: 95px;
+
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       /* display: block; */
@@ -85,6 +93,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const innerLogo = (
     <>
       <LogoWithText className="desktop-icon" isDark={isDark} isPushed={isPushed} />
+      <LogoWithText className="mobile-icon" isDark={isDark} isPushed={isPushed} />
     </>
   );
 

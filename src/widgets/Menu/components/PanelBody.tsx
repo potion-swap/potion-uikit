@@ -21,7 +21,7 @@ const Container = styled.div`
   overflow-y: auto;
   overflow-x: hidden;
   height: 100%;
-  margin-top: 72px;
+  margin-top: 90px;
 `;
 
 const rotate = keyframes`
